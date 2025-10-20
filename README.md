@@ -2,74 +2,72 @@
 
 ## Introduction
 
-This project demonstrates a complete data science workflow centered around the multi-stage cycling race Tour de France. The goal is to gain hands-on experience with scraping, cleaning, Pythonic data analysis, and clear communication—skills essential for roles like data engineer, data scientist, or AI consultant.
+This project demonstrates an end-to-end data science workflow focused on the multi-stage cycling event, Tour de France. The goal is to gain hands-on experience with web scraping, data cleaning, Pythonic analysis, and communicating results clearly—skills that are essential for roles such as data scientist, analyst, or engineer.
 
-All data was collected via web scraping (BeautifulSoup) from publicly available datasets in the [LeTourDataSet GitHub project](https://github.com/EloiNavet/LeTourDataSet/tree/master/data). Data manipulation is done **without pandas** (pure Python using list comprehensions, map, filter, Counter, etc.), making the code more universal and educational.
+All data is collected via web scraping (using BeautifulSoup) from public HTML tables on Wikipedia. All data processing is done without pandas—using only Python's built-in tools, list comprehensions, and modules such as `collections` and `csv`.
 
 ## Objectives
 
-- Showcase end-to-end data science skills: from data scraping to processed insights
-- Deep exploration of statistics from historical Tour de France data
-- Emphasis on “Pythonic” programming techniques, clear explanations (markdown/comments), and real-world data quality control (data cleaning)
-- Transparent documentation: every step, method, and decision is clearly communicated
+- Demonstrate complete data science skills: from scraping real websites to analytical insights
+- Explore historical Tour de France statistics and trends
+- Emphasize Pythonic code (clear, efficient, idiomatic Python)
+- Document every method and choice for easy understanding and reproducibility
+- Communicate findings in a way that is accessible for both technical and non-technical audiences
 
 ## Data
 
-**Source:** [LeTourDataSet/data](https://github.com/EloiNavet/LeTourDataSet/tree/master/data)  
-**Files used:**
+**Source:**  
+Wikipedia – List of Tour de France general classification winners
 
-- `TDF_Riders_History.csv`: Info about winners, teams, years, nationalities
-- `TDF_Stages_History.csv`: Stage data (distance, date, year)
-- Other files may be used as supplements
-
-**Collection method:**  
-Tables were scraped directly from HTML pages using BeautifulSoup. Cleaning and type conversion were applied to produce a reliable model sample. Clean data is exported as CSV.
+**Method:**  
+Relevant tables are scraped directly from the HTML using BeautifulSoup. The data is cleaned (handling missing values, type conversions, deduplication) and exported as CSV for later analysis.
 
 ## Project Structure
 
 ```
 ├── README.md
-├── 01_scraping_cleaning.ipynb # Scraping en data cleaning workflow
-├── 02_analysis.ipynb # Analyse per onderzoeksvraag
+├── 01_scraping_cleaning.ipynb       # Web scraping and data
+├── 02_analysis.ipynb                # Data analysis & answering the
 ├── data/
-│ ├── cleaned_riders.csv
-│ ├── cleaned_stages.csv
-│ └── ... (ruwe/extra data)
+│   ├── ...
 ├── .gitignore
 ```
 
 ## Research Questions & Methods
 
-This project answers the following five relevant questions based on the data, in a fully reproducible way:
+This project answers the following five questions, chosen for their data richness and the challenge in collecting and processing them from live websites:
 
-1. **Who was the most frequent winner?**  
-   Scraping + cleaning of `TDF_Riders_History.csv`, using Python’s Counter for frequency counting.
+1. **Which nationality has the most unique Tour de France winners?**  
+   Analyze the “By nationality” table. Count unique cyclists per country.
 
-2. **How many stages were raced per year?**  
-   Analysis of `TDF_Stages_History.csv`, grouped and counted by year.
+2. **Which cyclists have won the Tour more than twice, and in which years?**  
+   Scrape the “Multiple winners” table. List cyclists, their win counts, and years.
 
-3. **What is the average stage length per decade?**  
-   Distance cleaning, grouping by decade, calculating averages.
+3. **How long was the shortest Tour de France (in days and kilometers)?**  
+   Parse the main winners’ history table. Extract the distance and compute/min search.
 
-4. **Which nationalities appeared most often on the podium?**  
-   Filtering top-3 positions and grouping by nationality.
+4. **What is the average speed (km/h) across all Tour wins by Jacques Anquetil?**  
+   For each of Anquetil’s winning years, follow table links, extract distance and time, calculate speed, and average across all his wins.
 
-5. **Which teams had the most victories since 2000?**  
-   Filtering by team/year and sorting winners per team post-2000.
+5. **Which multiple-time winner spent the most total hours in yellow (total GC winning time in all winning years)?**  
+   For each multi-winner, use year links to extract winning time from each page, sum for each cyclist.
 
-Each analysis includes:
+Each research question is documented with:
 
-- Documentation of the chosen pipeline (scraping, parsing, cleaning)
-- Clear code blocks explained before and after with markdown
-- Optional visualizations (matplotlib)
+- Exact table(s) or Wikipedia subpages used
+- Pipeline documentation (scraping, cleaning, aggregation)
+- Clean and clear Python code (with markdown explanation before and after)
+- Short conclusion or visualization
 
 ## Technologies & Libraries Used
 
-- **Python 3.10+**
-- `requests` (HTTP requests)
-- `BeautifulSoup4` (HTML table scraping)
-- `csv` module (for export and parsing)
+- Python 3.10+
+- `requests`
+- `BeautifulSoup4`
+- `csv`
 - `collections.Counter`, `itertools`
-- No pandas, no external databases—everything is done in pure Python
+- No pandas, no external databases
+
+---
 
 For questions, feedback, or collaboration: [www.linkedin.com/in/jairo-nacurena](https://www.linkedin.com/in/jairo-nacurena)
