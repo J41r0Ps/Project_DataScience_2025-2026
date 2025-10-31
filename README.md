@@ -40,7 +40,7 @@ This project answers the following five questions, chosen for their data richnes
 1. **Which nationality has the most unique Tour de France winners?**  
    Analyze the “By nationality” table. Count unique cyclists per country.
 
-2. **Which cyclists have won the Tour more than twice, and in which years?**  
+2. **Which cyclists have won the Tour more than three times, and in which years?**  
    Scrape the “Multiple winners” table. List cyclists, their win counts, and years.
 
 3. **How long was the shortest Tour de France (in days and kilometers)?**  
