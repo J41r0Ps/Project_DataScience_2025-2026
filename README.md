@@ -1,4 +1,4 @@
-# 🚴 Tour de France Data Science Project
+# Tour de France Data Science Project
 
 ## Introduction
 
