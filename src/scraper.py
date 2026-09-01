@@ -44,3 +44,65 @@ def normalise_header(text: str) -> str:
     text = re.sub(r"\s+", " ", text)        # collapse remaining whitespace
     return text
 
+def get_column_map(table) -> dict[int, str]:
+    """
+    Read the table's header row and return {column_index: canonical_field_name}.
+    Unknown headers are skipped, so extra columns never break parsing.
+    """
+    header_row = table.find("tr")
+    header_cells = header_row.find_all(["th", "td"])
+
+    column_map = {}
+    for i, cell in enumerate(header_cells):
+        key = normalise_header(cell.get_text())
+        if key in COLUMN_ALIASES:
+            column_map[i] = COLUMN_ALIASES[key]
+    return column_map
+
+
+def parse_winners_table(table, race: str) -> list[dict]:
+    """
+    Parse the main 'winners by year' table into a list of raw dicts.
+    Values are kept as raw text — cleaning happens in 02_cleaning.
+    """
+    column_map = get_column_map(table)
+    rows = table.find_all("tr")[1:]  # skip header row
+
+    records = []
+    for row in rows:
+        # Data rows mix <th> (cyclist name) and <td> (everything else),
+        # so we collect both in document order to keep indices aligned.
+        cells = row.find_all(["th", "td"])
+        if not cells:
+            continue
+
+        record = {"race": race}
+        for i, cell in enumerate(cells):
+            field = column_map.get(i)
+            if field:
+                record[field] = cell.get_text(strip=True)
+
+        # a valid row must at least have a year
+        if record.get("year"):
+            records.append(record)
+
+    return records
+
+def scrape_race(race: str, delay: float = 1.0) -> list[dict]:
+    """Scrape one race's winners table."""
+    if race not in RACE_URLS:
+        raise ValueError(f"Unknown race {race!r}. Options: {list(RACE_URLS)}")
+
+    soup = get_soup(RACE_URLS[race], delay=delay)
+    tables = soup.find_all("table", class_="wikitable")
+    records = parse_winners_table(tables[1], race)
+    print(f"{race}: {len(records)} rows")
+    return records
+
+
+def scrape_all_races(delay: float = 1.0) -> list[dict]:
+    """Scrape all three Grand Tours."""
+    all_records = []
+    for race in RACE_URLS:
+        all_records.extend(scrape_race(race, delay=delay))
+    return all_records
