@@ -74,12 +74,14 @@ def parse_rider_name(value) -> dict:
     text = clean_missing(value)
     if text is np.nan or not isinstance(text, str):
         return {"rider_name": np.nan, "multi_classification": False, "no_winner": False}
-
-    multi_classification = any(sym in text for sym in ("#", "†", "*", "~", "&"))
+    
+    MARKER_CHARS = "#†*~&‡§"
+    multi_classification = any(sym in text for sym in ("#", "†", "*", "~", "&", "‡", "§"))
 
     name = re.sub(r"\[[a-z]\]", "", text)
-    name = re.sub(r"[#†*~&]", "", name).strip()
-    
+    # strip any remaining non-name characters (markers, footnote symbols)
+    name = re.sub(r"[^\w\s'\-.]", "", name, flags=re.UNICODE).strip()
+        
     if name.lower().startswith("no winner"):
         return {"rider_name": np.nan, "multi_classification": False, "no_winner": True}
 

@@ -129,3 +129,10 @@ class TestParseRiderName:
         result = parse_rider_name("Eddy Merckx&")
         assert result["rider_name"] == "Eddy Merckx"
         assert result["multi_classification"] is True
+
+    @pytest.mark.parametrize("raw", ["Eddy Merckx‡", "Tadej Pogačar§", "Tony Rominger‡"])
+    def test_additional_markers_stripped(self, raw):
+        """Wikipedia uses at least seven different classification markers."""
+        result = parse_rider_name(raw)
+        assert "‡" not in result["rider_name"]
+        assert "§" not in result["rider_name"]
