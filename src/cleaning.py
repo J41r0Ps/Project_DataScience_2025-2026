@@ -64,29 +64,35 @@ def parse_points(value) -> float:
 
 def parse_rider_name(value) -> dict:
     """
-    Extract the rider's name plus what the annotation markers tell us.
+    Extract the rider's name and what the annotation markers mean.
 
-    'Henri Cornet[b]'      -> name='Henri Cornet',      reassigned=False, no_winner=False
-    'Andy Schleck#[e]'     -> name='Andy Schleck',      reassigned=True,  no_winner=False
-    'Michele Scarponi†[a]' -> name='Michele Scarponi',  reassigned=True,  no_winner=False
-    'No winner[a]'         -> name=NaN,                 reassigned=False, no_winner=True
-    '—'                    -> name=NaN,                 reassigned=False, no_winner=False
+    Wikipedia's legend defines:
+      †, #, *, ~ -> the rider also won another classification that year
+      [a]-[z]    -> footnote reference
+    Rows whose 'name' is actually footnote prose are rejected.
     """
     text = clean_missing(value)
     if text is np.nan or not isinstance(text, str):
-        return {"rider_name": np.nan, "is_reassigned": False, "no_winner": False}
+        return {"rider_name": np.nan, "multi_classification": False, "no_winner": False}
 
-    # '#' and '†' both mark a title awarded after the original winner was stripped
-    reassigned = "#" in text or "†" in text
+    multi_classification = any(sym in text for sym in ("#", "†", "*", "~", "&"))
 
-    # strip footnote refs [a]-[z] and the status symbols
     name = re.sub(r"\[[a-z]\]", "", text)
-    name = name.replace("#", "").replace("†", "").strip()
-
+    name = re.sub(r"[#†*~&]", "", name).strip()
+    
     if name.lower().startswith("no winner"):
-        return {"rider_name": np.nan, "is_reassigned": False, "no_winner": True}
+        return {"rider_name": np.nan, "multi_classification": False, "no_winner": True}
 
-    return {"rider_name": name, "is_reassigned": reassigned, "no_winner": False}
+    # Reject footnote prose that isn't a rider name. Real names are short and
+    # have no verbs; footnotes are sentences.
+    if len(name.split()) > 4 or "not contested" in name.lower():
+        return {"rider_name": np.nan, "multi_classification": False, "no_winner": False}
+
+    return {
+        "rider_name": name,
+        "multi_classification": multi_classification,
+        "no_winner": False,
+    }
 
 def classify_status(row) -> str:
     """

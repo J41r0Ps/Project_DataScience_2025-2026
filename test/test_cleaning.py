@@ -76,7 +76,7 @@ class TestParseRiderName:
     def test_plain_name_unchanged(self):
         result = parse_rider_name("Maurice Garin")
         assert result["rider_name"] == "Maurice Garin"
-        assert result["is_reassigned"] is False
+        assert result["multi_classification"] is False
         assert result["no_winner"] is False
 
     def test_footnote_marker_stripped(self):
@@ -89,11 +89,17 @@ class TestParseRiderName:
         ("Andy Schleck#[e]", "Andy Schleck"),
         ("Michele Scarponi†[a]", "Michele Scarponi"),
     ])
-    def test_reassigned_titles_flagged(self, raw, expected):
-        """'#' and '†' mark titles awarded after the original winner was stripped."""
+    def test_multi_classification_flagged(self, raw, expected):
+        """Per the table legend, † and # mean the rider also won another
+        classification that year - not that the title was reassigned."""
         result = parse_rider_name(raw)
         assert result["rider_name"] == expected
-        assert result["is_reassigned"] is True
+        assert result["multi_classification"] is True
+
+    def test_footnote_alone_is_not_multi_classification(self):
+        """A footnote marker carries no classification information."""
+        result = parse_rider_name("Óscar Pereiro[d]")
+        assert result["multi_classification"] is False
 
     def test_no_winner_flagged_separately(self):
         """TdF 1999-2005: the race happened, the result was annulled."""
@@ -106,3 +112,20 @@ class TestParseRiderName:
         result = parse_rider_name("—")
         assert np.isnan(result["rider_name"])
         assert result["no_winner"] is False
+
+    def test_asterisk_marker_stripped(self):
+        """'*' is another 'also won another classification' marker."""
+        result = parse_rider_name("Tadej Pogačar*")
+        assert result["rider_name"] == "Tadej Pogačar"
+        assert result["multi_classification"] is True
+
+    def test_footnote_prose_rejected(self):
+        """Table footnotes must not be parsed as rider names."""
+        result = parse_rider_name("~Not contested due toWorld War II")
+        assert np.isnan(result["rider_name"])
+
+    def test_ampersand_marker_stripped(self):
+        """The Vuelta page uses '&' where other pages use † or #."""
+        result = parse_rider_name("Eddy Merckx&")
+        assert result["rider_name"] == "Eddy Merckx"
+        assert result["multi_classification"] is True

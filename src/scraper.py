@@ -79,8 +79,21 @@ def parse_winners_table(table, race: str) -> list[dict]:
         record = {"race": race}
         for i, cell in enumerate(cells):
             field = column_map.get(i)
-            if field:
-                record[field] = cell.get_text(strip=True)
+            if not field:
+                continue
+
+            # A struck-through name means the title was stripped and reassigned.
+            # Record that fact, then remove the struck text so only the
+            # current title-holder's name survives.
+            struck = cell.find_all(["s", "del", "strike"])
+            if struck and field == "cyclist":
+                record["title_reassigned"] = True
+                for tag in struck:
+                    tag.decompose()
+
+            record[field] = cell.get_text(strip=True)
+
+        record.setdefault("title_reassigned", False)
 
         # a valid row must at least have a year
         if record.get("year"):
