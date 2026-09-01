@@ -1,83 +1,175 @@
-# Tour de France Data Science Project
+# 🚴 Grand Tours Analysis
 
-## 📖 Project Overview
+> A complete data pipeline over 100+ years of professional cycling: scraping, cleaning,
+> API enrichment and exploratory analysis of the three Grand Tours — the Tour de France,
+> the Giro d'Italia and the Vuelta a España.
 
-This project explores the rich history of the **Tour de France** cycling race by extracting structured data from Wikipedia and performing insightful analyses. It covers:
-
-- Scraping detailed data of winners, multiple champions, race lengths, and ages  
-- Cleaning and saving this data into reproducible **CSV, JSON, and Pickle** formats  
-- Analyzing key research questions with **Python, NumPy, and Matplotlib**  
-- Visualizing findings using clear charts to reveal trends and remarkable records  
+**Status**: 🚧 In progress
 
 ---
 
-## 📂 Datasets
+## 🎯 About this project
 
-The cleaned datasets are saved in the `data/` folder:
+This is a **rebuild and expansion** of a course project originally submitted for the Data
+Science course (Thomas More, 2APPAI). The original brief prohibited Pandas and covered only
+the Tour de France, so the first version used raw Python lists, NumPy and Matplotlib, and
+produced four disconnected data files — one shaped around each research question.
 
-- **tdf_winner_nationalities_clean.csv**  
-  Summary of unique winners per country, extracted from the “By nationality” table.  
+This version removes those constraints:
 
-- **tdf_multiple_winners_clean.json**  
-  Details of cyclists with more than three Tour wins, including years and Wikipedia links.  
+| Original | This version |
+| --- | --- |
+| Tour de France only | All three Grand Tours, with cross-race comparison |
+| No Pandas (brief prohibited it) | Full Pandas pipeline with a proper tidy data model |
+| 4 disconnected files, no shared keys | One relational model — `editions` + `riders`, joinable |
+| Scraping and cleaning mixed in one notebook | Separate Obtain / Scrub / Enrich / Explore stages |
+| All logic inline in notebooks | Reusable `src/` package with unit tests |
+| Birth dates scraped from each rider's page | Wikidata SPARQL API — structured, one query |
+| Winning times compared raw across eras | Average speed (km/h) — the honest cross-era metric |
 
-- **tdf_shortest_tour_clean.p**  
-  Data of each Tour’s length (in km) and winning time, excluding invalid or disputed years.  
-
-- **tdf_winner_ages_clean.csv**  
-  Age of each Tour winner when victorious, obtained by combining personal birthdates with winning years.  
-
----
-
-## ❓ Key Research Questions
-
-1. **Which nationality has the most unique Tour de France winners?**  
-   → Analyzed by counting winners per country and visualizing with a bar chart.  
-
-2. **Which cyclists have won the Tour more than three times, and in which years?**  
-   → Presented detailed timelines of multiple Tour winners using structured JSON data and a horizontal bar chart.  
-
-3. **How long was the shortest Tour de France (in days and kilometers)?**  
-   → Examined shortest editions by distance and time, shown with scatter plots for historical trends.  
-
-4. **How do the winning times of the five-time Tour de France champions compare?**  
-   → Compared winning times as grouped bar charts to reflect performance across multiple victories.  
-
-5. **At what age do Tour de France winners achieve victory?**  
-   → Visualized winner ages over history with scatter plots revealing no fixed winning age but a range of champion profiles.  
+The original notebooks are preserved in [`legacy/`](legacy/) as a deliberate before/after.
 
 ---
 
-## 🛠️ Technologies & Libraries
+## 🗂️ Data sources
 
-- Python 3.x  
-- **Requests** & **BeautifulSoup** for web scraping  
-- **CSV, JSON, Pickle** for data storage and interoperability  
-- **NumPy & Matplotlib** for numerical analysis and visualization  
-- Robust **regular expressions** for precise data extraction  
+| Source | Type | Provides |
+| --- | --- | --- |
+| [TdF winners](https://en.wikipedia.org/wiki/List_of_Tour_de_France_general_classification_winners) | Scraping | year, winner, country, distance, winning time |
+| [Giro winners](https://en.wikipedia.org/wiki/List_of_Giro_d%27Italia_general_classification_winners) | Scraping | same, plus margin and stage wins |
+| [Vuelta winners](https://en.wikipedia.org/wiki/List_of_Vuelta_a_Espa%C3%B1a_general_classification_winners) | Scraping | same |
+| [Wikidata](https://query.wikidata.org/) | SPARQL API | rider birth dates, nationality, physical data |
 
----
-
-## ▶️ How to Run
-
-1. Scrape & clean data via the Jupyter notebook **01_scraping_cleaning.ipynb**  
-2. Perform analyses and generate plots with **02_analysis.ipynb**  
-3. Explore individual question notebooks or extend with your own research  
+**Note on table structure**: the three Wikipedia tables share a core schema but differ in
+optional columns. The scraper maps columns by header name rather than position, so it handles
+all three without race-specific branches.
 
 ---
 
-## 🎯 Project Goals
+## 🧬 Pipeline (OSEMN)
 
-- Demonstrate robust data scraping and munging techniques  
-- Practice Pythonic data analysis workflows  
-- Develop insightful visualizations aligned with research questions  
-- Enable reproducible, shareable results for learning and collaboration  
+| Stage | Notebook | Output |
+| --- | --- | --- |
+| **Obtain** | `01_scraping.ipynb` | `data/raw/{race}_winners_raw.csv` |
+| **Scrub** | `02_cleaning.ipynb` | `data/processed/editions.csv` |
+| **Obtain (API)** | `03_enrichment.ipynb` | `data/processed/riders.csv` |
+| **Explore / Interpret** | `04_analysis.ipynb` | charts + findings |
+
+### Data model
+
+Two tidy tables joined on rider name, replacing the original four ad-hoc files:
+
+**`editions.csv`** — one row per race-edition
+`race · year · winner_name · winner_country · distance_km · winning_time_hours · avg_speed_kmh · stages · is_disputed`
+
+**`riders.csv`** — one row per rider
+`rider_name · country · birth_date · wins_tdf · wins_giro · wins_vuelta · wins_total`
 
 ---
 
-## 🚀 Future Work
+## ❓ Research questions
 
-- Extend analysis to other cycling Grand Tours (Giro d’Italia, Vuelta a España)  
-- Incorporate stage-level data for deeper performance insights  
-- Explore team dynamics and strategies across different eras  
-- Add interactive dashboards for richer exploration of Tour de France history  
+**Carried over from the original (rebuilt in Pandas):**
+
+1. Which nationalities have produced the most Grand Tour winners?
+2. Which riders have won most often, and when?
+3. How have race distances and winning times evolved?
+4. How do the multi-time champions compare?
+5. At what age do riders win?
+
+**New — only possible with the expanded scope:**
+6. Do the three races' distances correlate over time, or did they evolve independently?
+7. Has average winning speed converged across the three Grand Tours?
+8. Which riders have won more than one *different* Grand Tour?
+9. Is winner age trending upward, and is the trend statistically meaningful?
+10. Does each race have distinct eras of national dominance?
+
+---
+
+## 📁 Structure
+
+```
+grand-tours-analysis/
+├── data/
+│ ├── raw/ # scraped output (gitignored, regenerated by 01)
+│ └── processed/ # tidy tables (gitignored, regenerated by 02–03)
+├── notebooks/
+│ ├── 01_scraping.ipynb
+│ ├── 02_cleaning.ipynb
+│ ├── 03_enrichment.ipynb
+│ └── 04_analysis.ipynb
+├── src/
+│ ├── scraper.py # generalised Wikipedia table scraper
+│ ├── cleaning.py # regex parsers, normalisation
+│ └── wikidata.py # SPARQL client
+├── tests/
+│ └── test_cleaning.py # pytest unit tests
+├── legacy/ # original course submission, kept for comparison
+├── docs/
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ Setup
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Run notebooks in order (`01` → `04`). Each writes a checkpoint file, so later stages re-run
+without re-scraping.
+
+Run the tests with:
+
+```bash
+pytest
+```
+
+---
+
+## 🛠️ Techniques
+
+| Area | Techniques |
+| --- | --- |
+| Scraping | requests + BeautifulSoup, header-based column mapping, multi-source generalisation |
+| API | Wikidata SPARQL queries, structured JSON parsing |
+| Cleaning | Regex parsing of times/distances, name normalisation, absolute-vs-relative time handling, missing data strategy |
+| Analysis | Pandas groupby/merge/pivot, NumPy aggregations, correlation, trend fitting (`polyfit`), derived metrics |
+| Visualisation | Matplotlib + Seaborn, faceted small multiples, trend overlays |
+| Engineering | Modular `src/` package, pytest unit tests, reproducible pipeline |
+
+---
+
+## 🛣️ Roadmap
+
+- [ ] Repo foundation: venv, requirements, gitignore, structure
+- [ ] Generalised scraper for all three races
+- [ ] Cleaning module + unit tests
+- [ ] Wikidata enrichment
+- [ ] Analysis notebook — all 10 questions
+- [ ] Docs: data dictionary + findings
+
+---
+
+## ⚠️ Known data issues
+
+- **Disputed results** — the 1999–2005 Tours have no official winner (Armstrong stripped);
+  Contador's 2011 Giro was reassigned. These are flagged with `is_disputed` rather than silently
+  excluded, so every analysis states its own filtering choice explicitly.
+- **Early editions used points, not time** — both the Giro (pre-1914) and the TdF (1905–1912)
+  ranked riders by points. Those years have no comparable winning time.
+- **War interruptions** — no editions during either World War, leaving genuine gaps in every
+  time series.
+- **Table schemas differ** between the three races (Giro includes margin and stage wins).
+
+---
+
+## 👤 Author
+
+Data Science course portfolio, ***Jairo Nacurena Tuy*** — Applied Computer Science, Thomas More Geel.
