@@ -1,0 +1,334 @@
+race,year,rider_name,country,team,distance_km,winning_time_hours,winning_points,multi_classification,title_reassigned,no_winner,status,avg_speed_kmh,birth_date,height_cm,weight_kg,citizenships,age_at_win
+tdf,1903,Maurice Garin,France,La Française,2428.0,94.55388888888888,,False,False,False,held,25.6784784690682,1871-03-03,,,"France, Kingdom of Italy",32.39151266255989
+tdf,1904,Henri Cornet,France,Conte,2428.0,96.09861111111113,,False,False,False,held,25.265713748897976,1884-08-04,,,France,19.969883641341546
+tdf,1905,Louis Trousselier,France,Peugeot–Wolber,2994.0,,35.0,False,False,False,held,,1881-06-29,161.0,,France,24.0684462696783
+tdf,1906,René Pottier,France,Peugeot–Wolber,4637.0,,31.0,False,False,False,held,,1879-06-06,,,France,27.132101300479125
+tdf,1907,Lucien Petit-Breton,France,Peugeot–Wolber,4488.0,,47.0,False,False,False,held,,1882-10-18,,,France,24.763860369609855
+tdf,1908,Lucien Petit-Breton,France,Peugeot–Wolber,4497.0,,36.0,False,False,False,held,,1882-10-18,,,France,25.765913757700204
+tdf,1909,François Faber,Luxembourg,Alcyon–Dunlop,4498.0,,37.0,False,False,False,held,,1887-01-26,180.0,91.0,"France, Luxembourg",22.491444216290212
+tdf,1910,Octave Lapize,France,Alcyon–Dunlop,4734.0,,63.0,False,False,False,held,,1887-10-24,,,France,22.748802190280628
+tdf,1911,Gustave Garrigou,France,Alcyon–Dunlop,5343.0,,43.0,False,False,False,held,,1884-09-24,164.0,,France,26.82819986310746
+tdf,1912,Odile Defraye,Belgium,Alcyon–Dunlop,5289.0,,49.0,False,False,False,held,,1888-07-14,,,Belgium,24.027378507871322
+tdf,1913,Philippe Thys,Belgium,Peugeot–Wolber,5287.0,197.9,,False,False,False,held,26.715512885295603,1889-10-08,,,Belgium,23.79192334017796
+tdf,1914,Philippe Thys,Belgium,Peugeot–Wolber,5380.0,200.48,,False,False,False,held,26.835594573024743,1889-10-08,,,Belgium,24.791238877481177
+tdf,1915,,,,,,,False,False,False,no_race,,,,,,
+tdf,1916,,,,,,,False,False,False,no_race,,,,,,
+tdf,1917,,,,,,,False,False,False,no_race,,,,,,
+tdf,1918,,,,,,,False,False,False,no_race,,,,,,
+tdf,1919,Firmin Lambot,Belgium,La Sportive,5560.0,231.1208333333333,,False,False,False,held,24.056680307919738,1886-03-14,170.0,,Belgium,33.360711841204655
+tdf,1920,Philippe Thys,Belgium,La Sportive,5503.0,228.6036111111111,,False,False,False,held,24.07223566265236,1889-10-08,,,Belgium,30.792607802874745
+tdf,1921,Léon Scieur,Belgium,La Sportive,5485.0,221.8405555555556,,False,False,False,held,24.724965127606666,1888-03-19,,,Belgium,33.347022587268995
+tdf,1922,Firmin Lambot,Belgium,Peugeot–Wolber,5375.0,222.135,,False,False,False,held,24.19699732144867,1886-03-14,170.0,,Belgium,36.36139630390144
+tdf,1923,Henri Pélissier,France,Automoto–Hutchinson,5386.0,222.25833333333333,,False,False,False,held,24.2330621274043,1889-01-22,,,France,34.49965776865161
+tdf,1924,Ottavio Bottecchia,Italy,Automoto,5425.0,226.3058333333333,,False,False,False,held,23.97198481406062,1894-08-01,,,"Italy, Kingdom of Italy",29.97946611909651
+tdf,1925,Ottavio Bottecchia,Italy,Automoto–Hutchinson,5440.0,219.17166666666665,,False,False,False,held,24.82072652334928,1894-08-01,,,"Italy, Kingdom of Italy",30.978781656399725
+tdf,1926,Lucien Buysse,Belgium,Automoto–Hutchinson,5745.0,238.74027777777775,,False,False,False,held,24.0638071358345,1892-09-11,,,Belgium,33.86447638603696
+tdf,1927,Nicolas Frantz,Luxembourg,Alcyon–Dunlop,5398.0,198.2783333333333,,False,False,False,held,27.22435633410946,1899-11-04,,,Luxembourg,27.718001368925393
+tdf,1928,Nicolas Frantz,Luxembourg,Alcyon–Dunlop,5476.0,192.81611111111116,,False,False,False,held,28.400116403366475,1899-11-04,,,Luxembourg,28.720054757015742
+tdf,1929,Maurice De Waele,Belgium,Alcyon–Dunlop,5286.0,186.65416666666667,,False,False,False,held,28.31975355492555,1896-12-27,,,Belgium,32.57221081451061
+tdf,1930,André Leducq,France,France,4822.0,172.20444444444442,,False,False,False,held,28.001600165178345,1904-02-27,,,France,26.406570841889117
+tdf,1931,Antonin Magne,France,France,5091.0,177.1675,,False,False,False,held,28.73551864760749,1904-02-15,,,France,27.43874058863792
+tdf,1932,André Leducq,France,France,4479.0,154.19694444444443,,False,False,False,held,29.047268194174475,1904-02-27,,,France,28.407939767282684
+tdf,1933,Georges Speicher,France,France,4395.0,147.86027777777778,,False,False,False,held,29.7240074619996,1907-06-08,,,France,26.130047912388775
+tdf,1934,Antonin Magne,France,France,4470.0,147.23277777777778,,False,False,False,held,30.36008738996072,1904-02-15,,,France,30.439425051334702
+tdf,1935,Romain Maes,Belgium,Belgium,4338.0,141.38333333333333,,False,False,False,held,30.68254155369563,1912-08-10,,,Belgium,22.954140999315538
+tdf,1936,Sylvère Maes,Belgium,Belgium,4442.0,142.79222222222222,,False,False,False,held,31.108136920000312,1909-08-27,,,Belgium,26.910335386721425
+tdf,1937,Roger Lapébie,France,France,4415.0,138.9752777777778,,False,False,False,held,31.768240154623825,1911-01-16,174.0,,France,26.521560574948666
+tdf,1938,Gino Bartali,Italy,Italy,4694.0,148.48666666666665,,True,False,False,held,31.612265972253404,1914-07-18,,,"Italy, Kingdom of Italy",24.019164955509925
+tdf,1939,Sylvère Maes,Belgium,Belgium,4224.0,132.05472222222224,,True,False,False,held,31.98673950403557,1909-08-27,,,Belgium,29.908281998631075
+tdf,1940,,,,,,,False,False,False,no_race,,,,,,
+tdf,1941,,,,,,,False,False,False,no_race,,,,,,
+tdf,1942,,,,,,,False,False,False,no_race,,,,,,
+tdf,1943,,,,,,,False,False,False,no_race,,,,,,
+tdf,1944,,,,,,,False,False,False,no_race,,,,,,
+tdf,1945,,,,,,,False,False,False,no_race,,,,,,
+tdf,1946,,,,,,,False,False,False,no_race,,,,,,
+tdf,1947,Jean Robic,France,France,4642.0,148.1902777777778,,False,False,False,held,31.324592069130336,1921-06-10,161.0,60.0,France,26.12183436002738
+tdf,1948,Gino Bartali,Italy,Italy,4922.0,147.17666666666665,,True,False,False,held,33.442801168663514,1914-07-18,,,"Italy, Kingdom of Italy",34.02053388090349
+tdf,1949,Fausto Coppi,Italy,Italy,4808.0,149.68027777777775,,True,False,False,held,32.12180035594388,1919-09-15,177.0,,"Italy, Kingdom of Italy",29.859000684462696
+tdf,1950,Ferdinand Kübler,Switzerland,Switzerland,4773.0,145.61555555555557,,False,False,False,held,32.77809147374365,1919-07-24,,,Switzerland,31.003422313483917
+tdf,1951,Hugo Koblet,Switzerland,Switzerland,4690.0,142.33722222222224,,False,False,False,held,32.949919401109256,1925-03-21,,,Switzerland,26.34360027378508
+tdf,1952,Fausto Coppi,Italy,Italy,4898.0,151.95555555555555,,True,False,False,held,32.23310909622697,1919-09-15,177.0,,"Italy, Kingdom of Italy",32.85968514715948
+tdf,1953,Louison Bobet,France,France,4476.0,129.39027777777778,,False,False,False,held,34.59301639097906,1925-03-12,,,France,28.369609856262834
+tdf,1954,Louison Bobet,France,France,4656.0,140.1013888888889,,False,False,False,held,33.23307525304095,1925-03-12,,,France,29.36892539356605
+tdf,1955,Louison Bobet,France,France,4495.0,130.49055555555557,,False,False,False,held,34.44693741139206,1925-03-12,,,France,30.368240930869266
+tdf,1956,Roger Walkowiak,France,France,4498.0,124.02111111111113,,False,False,False,held,36.268018885673584,1927-03-02,,,"France, Poland",29.399041752224505
+tdf,1957,Jacques Anquetil,France,France,4669.0,135.74499999999998,,False,False,False,held,34.395373678588534,1934-01-08,176.0,70.0,France,23.54277891854894
+tdf,1958,Charly Gaul,Luxembourg,Luxembourg,4319.0,116.98472222222222,,False,False,False,held,36.91935081741443,1932-12-08,173.0,64.0,Luxembourg,25.626283367556468
+tdf,1959,Federico Bahamontes,Spain,Spain,4358.0,123.77916666666668,,True,False,False,held,35.207863466523044,1928-07-09,,,Spain,31.041752224503764
+tdf,1960,Gastone Nencini,Italy,Italy,4173.0,112.145,,False,False,False,held,37.21075393463819,1930-03-01,,,"Italy, Kingdom of Italy",30.401095140314855
+tdf,1961,Jacques Anquetil,France,France,4397.0,122.02583333333334,,False,False,False,held,36.03335359315992,1934-01-08,176.0,70.0,France,27.54277891854894
+tdf,1962,Jacques Anquetil,France,Saint-Raphaël–Helyett–Hutchinson,4274.0,114.53166666666668,,False,False,False,held,37.31719029671561,1934-01-08,176.0,70.0,France,28.542094455852155
+tdf,1963,Jacques Anquetil,France,Saint-Raphaël–Gitane–R. Geminiani,4138.0,113.50138888888888,,False,False,False,held,36.45770365022455,1934-01-08,176.0,70.0,France,29.541409993155373
+tdf,1964,Jacques Anquetil,France,Saint-Raphaël–Gitane–Dunlop,4504.0,127.16222222222224,,False,False,False,held,35.419324397532456,1934-01-08,176.0,70.0,France,30.543463381245722
+tdf,1965,Felice Gimondi,Italy,Salvarani,4188.0,116.70166666666668,,False,False,False,held,35.88637694405964,1942-09-29,181.0,71.0,Italy,22.819986310746064
+tdf,1966,Lucien Aimar,France,Ford France–Hutchinson,4329.0,117.5725,,False,False,False,held,36.81983457015884,1941-04-28,170.0,,France,25.240246406570844
+tdf,1967,Roger Pingeon,France,Peugeot–BP–Michelin,4779.0,136.8972222222222,,False,False,False,held,34.90940080758071,1940-08-28,,,France,26.90485968514716
+tdf,1968,Jan Janssen,Netherlands,Pelforth–Sauvage–Lejeune,4492.0,133.82833333333332,,False,False,False,held,33.56538849521153,1940-05-19,174.0,76.0,Kingdom of the Netherlands,28.18343600273785
+tdf,1969,Eddy Merckx,Belgium,Faema,4117.0,116.26722222222222,,True,False,False,held,35.40980786597923,1945-06-17,182.0,74.0,Belgium,24.10403832991102
+tdf,1970,Eddy Merckx,Belgium,Faemino–Faema,4254.0,119.53027777777778,,True,False,False,held,35.58930907789519,1945-06-17,182.0,74.0,Belgium,25.10335386721424
+tdf,1971,Eddy Merckx,Belgium,Molteni,3608.0,96.7538888888889,,True,False,False,held,37.29049076408069,1945-06-17,182.0,74.0,Belgium,26.102669404517453
+tdf,1972,Eddy Merckx,Belgium,Molteni,3846.0,108.28833333333333,,True,False,False,held,35.5162913825743,1945-06-17,182.0,74.0,Belgium,27.104722792607802
+tdf,1973,Luis Ocaña,Spain,Bic,4090.0,122.42611111111113,,False,False,False,held,33.40790590242641,1945-06-09,,,Spain,28.125941136208077
+tdf,1974,Eddy Merckx,Belgium,Molteni,4098.0,116.28277777777778,,False,False,False,held,35.24167618210397,1945-06-17,182.0,74.0,Belgium,29.10335386721424
+tdf,1975,Bernard Thévenet,France,Peugeot–BP–Michelin,4000.0,114.59194444444444,,False,False,False,held,34.906467635159544,1948-01-10,,,France,27.537303216974674
+tdf,1976,Lucien Van Impe,Belgium,Gitane–Campagnolo,4017.0,116.37305555555557,,False,False,False,held,34.518299625486044,1946-10-20,,,Belgium,29.763175906913073
+tdf,1977,Bernard Thévenet,France,Peugeot–Esso–Michelin,4096.0,115.64166666666668,,False,False,False,held,35.419759313972754,1948-01-10,,,France,29.53867214236824
+tdf,1978,Bernard Hinault,France,Renault–Gitane–Campagnolo,3908.0,108.3,,False,False,False,held,36.08494921514312,1954-11-14,175.0,,France,23.693360711841205
+tdf,1979,Bernard Hinault,France,Renault–Gitane,3765.0,103.11388888888888,,True,False,False,held,36.5130249723876,1954-11-14,175.0,,France,24.692676249144423
+tdf,1980,Joop Zoetemelk,Netherlands,TI–Raleigh–Creda,3842.0,109.32055555555556,,False,False,False,held,35.14435121990883,1946-12-03,173.0,68.0,Kingdom of the Netherlands,33.64271047227926
+tdf,1981,Bernard Hinault,France,Renault–Elf–Gitane,3753.0,96.32722222222222,,False,False,False,held,38.96094907981475,1954-11-14,175.0,,France,26.694045174537987
+tdf,1982,Bernard Hinault,France,Renault–Elf–Gitane,3507.0,92.14611111111113,,False,False,False,held,38.05912108185672,1954-11-14,175.0,,France,27.693360711841205
+tdf,1983,Laurent Fignon,France,Renault–Elf,3809.0,105.13111111111112,,True,False,False,held,36.230949713585154,1960-08-12,,,France,22.94866529774127
+tdf,1984,Laurent Fignon,France,Renault–Elf,4021.0,112.0611111111111,,False,False,False,held,35.882207129046655,1960-08-12,,,France,23.95071868583162
+tdf,1985,Bernard Hinault,France,La Vie Claire,4109.0,113.4063888888889,,False,False,False,held,36.23252658212965,1954-11-14,175.0,,France,30.694045174537987
+tdf,1986,Greg LeMond,United States,La Vie Claire,4094.0,110.5886111111111,,False,False,False,held,37.020086958924345,1961-06-26,,,United States,25.078713210130047
+tdf,1987,Stephen Roche,Ireland,Carrera Jeans–Vagabond,4231.0,115.46166666666667,,False,False,False,held,36.64419648656841,1959-11-28,175.0,,Ireland,27.655030800821354
+tdf,1988,Pedro Delgado,Spain,Reynolds,3286.0,84.46472222222222,,False,False,False,held,38.9038158600073,1960-04-15,,,Spain,28.27652292950034
+tdf,1989,Greg LeMond,United States,AD Renting–W-Cup–Bottecchia,3285.0,87.64305555555556,,False,False,False,held,37.481577737983926,1961-06-26,,,United States,28.079397672826833
+tdf,1990,Greg LeMond,United States,Z–Tomasso,3504.0,90.72222222222224,,False,False,False,held,38.62339252908757,1961-06-26,,,United States,29.078713210130047
+tdf,1991,Miguel Induráin,Spain,Banesto,3914.0,101.02222222222224,,False,False,False,held,38.74395072591289,1964-07-16,188.0,76.0,Spain,27.02258726899384
+tdf,1992,Miguel Induráin,Spain,Banesto,3983.0,100.825,,False,False,False,held,39.50409124721051,1964-07-16,188.0,76.0,Spain,28.024640657084188
+tdf,1993,Miguel Induráin,Spain,Banesto,3714.0,95.9525,,False,False,False,held,38.70665172871994,1964-07-16,188.0,76.0,Spain,29.023956194387406
+tdf,1994,Miguel Induráin,Spain,Banesto,3978.0,103.6438888888889,,False,False,False,held,38.38142357109547,1964-07-16,188.0,76.0,Spain,30.023271731690624
+tdf,1995,Miguel Induráin,Spain,Banesto,3635.0,92.74972222222222,,False,False,False,held,39.191492038011496,1964-07-16,188.0,76.0,Spain,31.02258726899384
+tdf,1996,Bjarne Riis,Denmark,Team Telekom,3765.0,95.95444444444443,,False,False,False,held,39.23736958510404,1964-04-03,186.0,,Kingdom of Denmark,32.309377138945926
+tdf,1997,Jan Ullrich,Germany,Team Telekom,3950.0,100.50972222222222,,True,False,False,held,39.29968079373195,1973-12-02,183.0,,"East Germany, Germany",23.644079397672826
+tdf,1998,Marco Pantani,Italy,Mercatone Uno–Bianchi,3875.0,92.82944444444443,,False,False,False,held,41.7432208410885,1970-01-13,172.0,57.0,Italy,28.528405201916495
+tdf,1999,,,,3687.0,,,False,False,True,disputed,,,,,,
+tdf,2000,,,,3662.0,,,False,False,True,disputed,,,,,,
+tdf,2001,,,,3458.0,,,False,False,True,disputed,,,,,,
+tdf,2002,,,,3278.0,,,False,False,True,disputed,,,,,,
+tdf,2003,,,,3427.0,,,False,False,True,disputed,,,,,,
+tdf,2004,,,,3391.0,,,False,False,True,disputed,,,,,,
+tdf,2005,,,,3359.0,,,False,False,True,disputed,,,,,,
+tdf,2006,Óscar Pereiro,Spain,Caisse d'Epargne–Illes Balears,3657.0,89.67416666666666,,False,False,False,held,40.780975568957984,1977-08-03,177.0,67.0,Spain,28.974674880219027
+tdf,2007,Alberto Contador,Spain,Discovery Channel,3570.0,91.00722222222224,,True,False,False,held,39.22765592474346,1982-12-06,176.0,62.0,Spain,24.632443531827516
+tdf,2008,Carlos Sastre,Spain,Team CSC,3559.0,87.88111111111111,,True,False,False,held,40.49789488323872,1975-04-22,173.0,61.0,Spain,33.25941136208077
+tdf,2009,Alberto Contador,Spain,Astana,3459.0,85.80972222222222,,False,False,False,held,40.3101176699092,1982-12-06,176.0,62.0,Spain,26.633812457221083
+tdf,2010,Andy Schleck,Luxembourg,Team Saxo Bank,3642.0,91.99083333333331,,True,False,False,held,39.59090126733642,1985-06-10,186.0,68.0,Luxembourg,25.12251882272416
+tdf,2011,Cadel Evans,Australia,BMC Racing Team,3430.0,86.20611111111111,,False,False,False,held,39.78836251619181,1977-02-14,174.0,68.0,Australia,34.4394250513347
+tdf,2012,Bradley Wiggins,Great Britain,Team Sky,3496.0,87.57972222222222,,False,False,False,held,39.91791605743339,1980-04-28,190.0,83.0,United Kingdom,32.24093086926762
+tdf,2013,Chris Froome,Great Britain,Team Sky,3404.0,83.9388888888889,,False,False,False,held,40.55331259514197,1985-05-20,186.0,69.0,"Kenya, United Kingdom",28.18069815195072
+tdf,2014,Vincenzo Nibali,Italy,Astana,3660.5,89.985,,False,False,False,held,40.6790020558982,1984-11-14,181.0,65.0,Italy,29.691991786447637
+tdf,2015,Chris Froome,Great Britain,Team Sky,3360.3,84.77055555555556,,True,False,False,held,39.63994311441997,1985-05-20,186.0,69.0,"Kenya, United Kingdom",30.17932922655715
+tdf,2016,Chris Froome,Great Britain,Team Sky,3529.0,89.08,,False,False,False,held,39.61607543780871,1985-05-20,186.0,69.0,"Kenya, United Kingdom",31.1813826146475
+tdf,2017,Chris Froome,Great Britain,Team Sky,3540.0,86.34861111111111,,False,False,False,held,40.99660613469303,1985-05-20,186.0,69.0,"Kenya, United Kingdom",32.18069815195072
+tdf,2018,Geraint Thomas,Great Britain,Team Sky,3349.0,83.28694444444444,,False,False,False,held,40.21038378030437,1986-05-25,183.0,71.0,United Kingdom,32.167008898015055
+tdf,2019,Egan Bernal,Colombia,Team INEOS,3366.0,82.95,,True,False,False,held,40.57866184448463,1997-01-13,175.0,60.0,Colombia,22.527036276522928
+tdf,2020,Tadej Pogačar,Slovenia,UAE Team Emirates,3484.0,87.33694444444444,,True,False,False,held,39.89148031410915,1998-09-21,176.0,66.0,Slovenia,21.842573579739906
+tdf,2021,Tadej Pogačar,Slovenia,UAE Team Emirates,3414.4,82.94333333333334,,True,False,False,held,41.16545432624683,1998-09-21,176.0,66.0,Slovenia,22.84188911704312
+tdf,2022,Jonas Vingegaard,Denmark,Team Jumbo–Visma,3328.0,79.54138888888889,,True,False,False,held,41.839852767077936,1996-12-10,175.0,,Kingdom of Denmark,25.620807665982205
+tdf,2023,Jonas Vingegaard,Denmark,Team Jumbo–Visma,3406.0,82.095,,False,False,False,held,41.48851939825811,1996-12-10,175.0,,Kingdom of Denmark,26.62012320328542
+tdf,2024,Tadej Pogačar,Slovenia,UAE Team Emirates,3498.0,83.64888888888889,,False,False,False,held,41.817650496785504,1998-09-21,176.0,66.0,Slovenia,25.842573579739906
+tdf,2025,Tadej Pogačar,Slovenia,UAE Team Emirates XRG,3320.0,76.00888888888889,,True,False,False,held,43.67910185943165,1998-09-21,176.0,66.0,Slovenia,26.84188911704312
+tdf,2026,Tadej Pogačar,Slovenia,UAE Team Emirates XRG,3245.0,73.94055555555556,,False,False,False,held,43.886605606605904,1998-09-21,176.0,66.0,Slovenia,27.84120465434634
+giro,1909,Luigi Ganna,Italy,Atala–Dunlop,2445.0,,25.0,False,False,False,held,,1883-12-01,,,"Italy, Kingdom of Italy",25.49760438056126
+giro,1910,Carlo Galetti,Italy,Atala–Continental,2984.0,,28.0,False,False,False,held,,1882-08-26,,,"Italy, Kingdom of Italy",27.761806981519506
+giro,1911,Carlo Galetti,Italy,Bianchi,3526.0,,50.0,False,False,False,held,,1882-08-26,,,"Italy, Kingdom of Italy",28.761122518822724
+giro,1912,,Italy,Atala–Dunlop,2443.0,,33.0,False,False,False,team_only,,,,,,
+giro,1913,Carlo Oriani,Italy,Maino,2932.0,,37.0,False,False,False,held,,1888-11-05,,,Kingdom of Italy,24.566735112936346
+giro,1914,Alfonso Calzolari,Italy,Stucchi–Dunlop,3162.0,135.29888888888888,,False,False,False,held,23.370480171472217,1887-04-30,,,"Italy, Kingdom of Italy",27.085557837097877
+giro,1915,,,,,,,False,False,False,no_race,,,,,,
+giro,1916,,,,,,,False,False,False,no_race,,,,,,
+giro,1917,,,,,,,False,False,False,no_race,,,,,,
+giro,1918,,,,,,,False,False,False,no_race,,,,,,
+giro,1919,Costante Girardengo,Italy,Stucchi–Dunlop,2984.0,112.85805555555557,,False,False,False,held,26.440292501150655,1893-03-18,,,"Italy, Kingdom of Italy",26.20123203285421
+giro,1920,Gaetano Belloni,Italy,Bianchi,2632.0,102.7425,,False,False,False,held,25.61744166240845,1892-08-26,,,"Italy, Kingdom of Italy",27.761806981519506
+giro,1921,Giovanni Brunero,Italy,Legnano–Pirelli,3107.0,120.41083333333334,,False,False,False,held,25.803326112683656,1898-03-15,,,Kingdom of Italy,23.211498973305954
+giro,1922,Giovanni Brunero,Italy,Legnano–Pirelli,3095.0,119.71666666666668,,False,False,False,held,25.85270778226368,1898-03-15,,,Kingdom of Italy,24.210814510609172
+giro,1923,Costante Girardengo,Italy,Maino,3202.0,122.4713888888889,,False,False,False,held,26.14488191119468,1893-03-18,,,"Italy, Kingdom of Italy",30.20123203285421
+giro,1924,Giuseppe Enrici,Italy,,3613.0,143.72694444444446,,False,False,False,held,25.137944829798787,1896-01-02,,,"Italy, Kingdom of Italy",28.410677618069816
+giro,1925,Alfredo Binda,Italy,Legnano–Pirelli,3520.0,137.52027777777778,,False,False,False,held,25.596225203151857,1902-08-11,,,"Italy, Kingdom of Italy",22.806297056810404
+giro,1926,Giovanni Brunero,Italy,Legnano–Pirelli,3430.0,137.93305555555554,,False,False,False,held,24.86713562738769,1898-03-15,,,Kingdom of Italy,28.210814510609172
+giro,1927,Alfredo Binda,Italy,Legnano–Pirelli,3758.0,144.25972222222222,,False,False,False,held,26.05023732273003,1902-08-11,,,"Italy, Kingdom of Italy",24.804928131416837
+giro,1928,Alfredo Binda,Italy,Wolsit–Pirelli,3044.0,114.25527777777778,,False,False,False,held,26.64209530802127,1902-08-11,,,"Italy, Kingdom of Italy",25.806981519507186
+giro,1929,Alfredo Binda,Italy,Legnano–Torpedo,2920.0,107.30666666666666,,False,False,False,held,27.211729622266404,1902-08-11,,,"Italy, Kingdom of Italy",26.806297056810404
+giro,1930,Luigi Marchisio,Italy,Legnano–Pirelli,3095.0,115.19861111111112,,False,False,False,held,26.866643357486463,1909-04-26,,,"Italy, Kingdom of Italy",21.097878165639973
+giro,1931,Francesco Camusso,Italy,Gloria–Hutchinson,3012.0,102.67944444444444,,False,False,False,held,29.33401145961271,1908-03-09,,,"Italy, Kingdom of Italy",23.227926078028748
+giro,1932,Antonio Pesenti,Italy,Wolsit–Hutchinson,3235.0,105.71138888888888,,False,False,False,held,30.602189924874068,1908-05-17,,,"Italy, Kingdom of Italy",24.041067761806982
+giro,1933,Alfredo Binda,Italy,Legnano–Clément,3343.0,111.03111111111112,,True,False,False,held,30.1086782483388,1902-08-11,,,"Italy, Kingdom of Italy",30.806297056810404
+giro,1934,Learco Guerra,Italy,Maino–Clément,3706.0,121.28805555555556,,False,False,False,held,30.555358341139208,1902-10-14,,,"Italy, Kingdom of Italy",31.630390143737166
+giro,1935,Vasco Bergamaschi,Italy,Maino–Girardengo,3577.0,113.37944444444445,,False,False,False,held,31.548928622178234,1909-09-29,,,"Italy, Kingdom of Italy",25.67008898015058
+giro,1936,Gino Bartali,Italy,Legnano–Wolsit,3766.0,120.20833333333334,,True,False,False,held,31.328942807625648,1914-07-18,,,"Italy, Kingdom of Italy",21.872689938398356
+giro,1937,Gino Bartali,Italy,Legnano,3840.0,122.42777777777778,,True,False,False,held,31.36543086627036,1914-07-18,,,"Italy, Kingdom of Italy",22.872005475701574
+giro,1938,Giovanni Valetti,Italy,Fréjus,3645.0,112.82444444444444,,True,False,False,held,32.306828701424045,1913-09-22,,,"Italy, Kingdom of Italy",24.689938398357288
+giro,1939,Giovanni Valetti,Italy,Fréjus,3011.0,88.03333333333333,,False,False,False,held,34.2029534267323,1913-09-22,,,"Italy, Kingdom of Italy",25.689253935660506
+giro,1940,Fausto Coppi,Italy,Legnano,3574.0,107.51944444444445,,False,False,False,held,33.24049913452347,1919-09-15,177.0,,"Italy, Kingdom of Italy",20.711841204654345
+giro,1941,,,,,,,False,False,False,no_race,,,,,,
+giro,1942,,,,,,,False,False,False,no_race,,,,,,
+giro,1943,,,,,,,False,False,False,no_race,,,,,,
+giro,1944,,,,,,,False,False,False,no_race,,,,,,
+giro,1945,,,,,,,False,False,False,no_race,,,,,,
+giro,1946,Gino Bartali,Italy,Legnano–Pirelli,3039.0,95.53888888888888,,True,False,False,held,31.809036459847647,1914-07-18,,,"Italy, Kingdom of Italy",31.871321013004792
+giro,1947,Fausto Coppi,Italy,Bianchi,3843.0,115.91861111111112,,False,False,False,held,33.15257112868943,1919-09-15,177.0,,"Italy, Kingdom of Italy",27.709787816564
+giro,1948,Fiorenzo Magni,Italy,Wilier Triestina,4164.0,125.86444444444444,,False,False,False,held,33.08321121488727,1920-12-07,,,"Italy, Kingdom of Italy",27.482546201232033
+giro,1949,Fausto Coppi,Italy,Bianchi–Ursus,4088.0,125.43055555555556,,True,False,False,held,32.59173956372495,1919-09-15,177.0,,"Italy, Kingdom of Italy",29.711156741957563
+giro,1950,Hugo Koblet,Switzerland,Guerra–Ursus,3981.0,117.4675,,True,False,False,held,33.890224955838846,1925-03-21,,,Switzerland,25.196440793976727
+giro,1951,Fiorenzo Magni,Italy,Ganna–Ursus,4153.0,121.19361111111112,,False,False,False,held,34.2674829302058,1920-12-07,,,"Italy, Kingdom of Italy",30.480492813141684
+giro,1952,Fausto Coppi,Italy,Bianchi–Pirelli,3964.0,114.61194444444445,,False,False,False,held,34.586273003347046,1919-09-15,177.0,,"Italy, Kingdom of Italy",32.71184120465435
+giro,1953,Fausto Coppi,Italy,Bianchi–Pirelli,4035.0,118.62388888888889,,False,False,False,held,34.015070975960434,1919-09-15,177.0,,"Italy, Kingdom of Italy",33.711156741957566
+giro,1954,Carlo Clerici,Switzerland,Guerra–Ursus,4337.0,129.2186111111111,,False,False,False,held,33.56327670377719,1929-09-03,,,"Italy, Kingdom of Italy, Switzerland",24.7419575633128
+giro,1955,Fiorenzo Magni,Italy,Clément–Fuchs,3861.0,108.93694444444444,,False,False,False,held,35.442521540238616,1920-12-07,,,"Italy, Kingdom of Italy",34.48049281314169
+giro,1956,Charly Gaul,Luxembourg,Faema–Guerra,3523.0,101.66361111111112,,True,False,False,held,34.6535005150428,1932-12-08,173.0,64.0,Luxembourg,23.479808350444902
+giro,1957,Gastone Nencini,Italy,Leo–Chlorodont,3926.0,104.75166666666668,,False,False,False,held,37.47911727737029,1930-03-01,,,"Italy, Kingdom of Italy",27.252566735112936
+giro,1958,Ercole Baldini,Italy,Legnano,3341.0,92.15833333333336,,False,False,False,held,36.25282575278054,1933-01-26,170.0,67.0,Italy,25.34428473648186
+giro,1959,Charly Gaul,Luxembourg,EMI,3657.0,101.84833333333331,,True,False,False,held,35.90633130962706,1932-12-08,173.0,64.0,Luxembourg,26.477754962354553
+giro,1960,Jacques Anquetil,France,Fynsec–Helyett,3481.0,94.065,,False,False,False,held,37.006325413278056,1934-01-08,176.0,70.0,France,26.39561943874059
+giro,1961,Arnaldo Pambianco,Italy,Fides,4004.0,111.42444444444445,,False,False,False,held,35.93466424682396,1935-08-16,,,Italy,25.793292265571527
+giro,1962,Franco Balmamion,Italy,Carpano,4180.0,123.1175,,False,False,False,held,33.95130667857941,1940-01-11,172.0,67.0,Italy,22.38740588637919
+giro,1963,Franco Balmamion,Italy,Carpano,4063.0,116.83777777777776,,False,False,False,held,34.7747113756966,1940-01-11,172.0,67.0,Italy,23.38672142368241
+giro,1964,Jacques Anquetil,France,Saint-Raphaël–Gitane–Dunlop,4069.0,115.17416666666666,,False,False,False,held,35.32910302512861,1934-01-08,176.0,70.0,France,30.39561943874059
+giro,1965,Vittorio Adorni,Italy,Salvarani,4051.0,121.13833333333334,,False,False,False,held,33.44110727405308,1937-11-14,184.0,74.0,Italy,27.54551676933607
+giro,1966,Gianni Motta,Italy,Molteni,3976.0,111.18,,True,False,False,held,35.76182766684655,1943-03-13,,,Italy,23.21971252566735
+giro,1967,Felice Gimondi,Italy,Salvarani,3572.0,101.09277777777775,,False,False,False,held,35.33387921985855,1942-09-29,181.0,71.0,Italy,24.670773442847366
+giro,1968,Eddy Merckx,Belgium,Faema,3917.0,108.7075,,True,False,False,held,36.03247246050181,1945-06-17,182.0,74.0,Belgium,22.95687885010267
+giro,1969,Felice Gimondi,Italy,Salvarani,3851.0,128.07416666666666,,False,False,False,held,30.068514988060308,1942-09-29,181.0,71.0,Italy,26.67214236824093
+giro,1970,Eddy Merckx,Belgium,Faemino–Faema,3292.0,90.1463888888889,,False,False,False,held,36.51837905628808,1945-06-17,182.0,74.0,Belgium,24.955509924709105
+giro,1971,Gösta Pettersson,Sweden,Ferretti,3621.0,97.40111111111112,,False,False,False,held,37.1761672807748,1940-11-23,189.0,,Sweden,30.518822724161534
+giro,1972,Eddy Merckx,Belgium,Molteni,3725.0,103.06777777777778,,False,False,False,held,36.14126626491737,1945-06-17,182.0,74.0,Belgium,26.95687885010267
+giro,1973,Eddy Merckx,Belgium,Molteni,3801.0,106.9113888888889,,True,False,False,held,35.55280723132604,1945-06-17,182.0,74.0,Belgium,27.956194387405887
+giro,1974,Eddy Merckx,Belgium,Molteni,4001.0,113.13694444444444,,False,False,False,held,35.36422182556538,1945-06-17,182.0,74.0,Belgium,28.955509924709105
+giro,1975,Fausto Bertoglio,Italy,Jollj Ceramica,3933.0,111.52333333333333,,False,False,False,held,35.26616253698778,1949-01-13,,,Italy,26.379192334017795
+giro,1976,Felice Gimondi,Italy,Bianchi–Campagnolo,4161.0,119.97111111111111,,False,False,False,held,34.68334969529702,1942-09-29,181.0,71.0,Italy,33.672826830937716
+giro,1977,Michel Pollentier,Belgium,Flandria–Velda–Latina Assicurazioni,3884.0,107.45444444444443,,False,False,False,held,36.14555005221851,1951-02-13,,,Belgium,26.297056810403834
+giro,1978,Johan De Muynck,Belgium,Bianchi–Faema,3610.0,101.52277777777778,,False,False,False,held,35.55852271794507,1948-05-30,,,Belgium,30.0041067761807
+giro,1979,Giuseppe Saronni,Italy,Scic–Bottecchia,3301.0,89.48833333333333,,True,False,False,held,36.88748998938409,1957-09-22,170.0,67.0,Italy,21.689253935660506
+giro,1980,Bernard Hinault,France,Renault–Gitane,4025.0,112.1388888888889,,False,False,False,held,35.89298984394352,1954-11-14,175.0,,France,25.54688569472964
+giro,1981,Giovanni Battaglin,Italy,Inoxpran,3895.0,104.84333333333332,,False,False,False,held,37.15066925253553,1951-07-22,,,Italy,29.861738535249827
+giro,1982,Bernard Hinault,France,Renault–Elf–Gitane,4010.0,110.13194444444444,,False,False,False,held,36.41087079891544,1954-11-14,175.0,,France,27.54551676933607
+giro,1983,Giuseppe Saronni,Italy,Del Tongo–Colnago,3916.0,100.75833333333334,,True,False,False,held,38.865271689686544,1957-09-22,170.0,67.0,Italy,25.689253935660506
+giro,1984,Francesco Moser,Italy,Gis Gelati–Tuc Lu,3808.0,98.53888888888888,,False,False,False,held,38.64464114562778,1951-06-19,180.0,,Italy,32.95277207392197
+giro,1985,Bernard Hinault,France,La Vie Claire–Look,3998.0,105.78083333333332,,False,False,False,held,37.79512671640263,1954-11-14,175.0,,France,30.546201232032853
+giro,1986,Roberto Visentini,Italy,Carrera Jeans–Vagabond,3858.0,102.56527777777778,,False,False,False,held,37.61506899400111,1957-06-02,,,Italy,28.996577686516083
+giro,1987,Stephen Roche,Ireland,Carrera Jeans–Vagabond,3915.0,105.66166666666668,,False,False,False,held,37.05222644604634,1959-11-28,175.0,,Ireland,27.50718685831622
+giro,1988,Andrew Hampsten,United States,7-Eleven–Hoonved,3759.0,97.31555555555556,,True,False,False,held,38.626918158567776,1962-04-07,,,United States,26.151950718685832
+giro,1989,Laurent Fignon,France,Super U–Raleigh–Fiat,3623.0,93.50444444444445,,False,False,False,held,38.746821303800175,1960-08-12,,,France,28.802190280629706
+giro,1990,Gianni Bugno,Italy,Chateau d'Ax–Salotti,3450.0,91.85111111111112,,True,False,False,held,37.56078678053856,1964-02-14,,,Italy,26.2943189596167
+giro,1991,Franco Chioccioli,Italy,Del Tongo–MG Boys,3715.0,99.59527777777777,,False,False,False,held,37.30096529565492,1959-08-25,,,Italy,31.76728268309377
+giro,1992,Miguel Indurain,Spain,Banesto,3835.0,103.6022222222222,,False,False,False,held,37.01658051092856,,,,,
+giro,1993,Miguel Indurain,Spain,Banesto,3703.0,99.16222222222224,,False,False,False,held,37.34285009972436,,,,,
+giro,1994,Evgeni Berzin,Russia,Gewiss–Ballan,3738.0,100.68916666666668,,True,False,False,held,37.12415271421123,1970-06-03,176.0,68.0,"Russia, Soviet Union",23.994524298425734
+giro,1995,Tony Rominger,Switzerland,Mapei–GB–Latexco,3736.0,97.63055555555556,,True,False,False,held,38.26670839616468,1961-03-27,173.0,,Switzerland,34.17932922655715
+giro,1996,Pavel Tonkov,Russia,Panaria–Vinavil,3990.0,105.33972222222222,,False,False,False,held,37.8774494163065,1969-02-09,179.0,71.0,"Russia, Soviet Union",27.307323750855577
+giro,1997,Ivan Gotti,Italy,Saeco–Estro,3912.0,102.89944444444446,,False,False,False,held,38.01769796835097,1969-03-28,173.0,55.0,Italy,28.177960301163587
+giro,1998,Marco Pantani,Italy,Mercatone Uno–Bianchi,3868.0,98.80888888888887,,True,False,False,held,39.14627563871896,1970-01-13,172.0,57.0,Italy,28.380561259411362
+giro,1999,Ivan Gotti,Italy,Team Polti,3757.0,99.93222222222222,,False,False,False,held,37.59548138182546,1969-03-28,173.0,55.0,Italy,30.17659137577002
+giro,2000,Stefano Garzelli,Italy,Mercatone Uno–Albacom,3707.0,98.5038888888889,,False,False,False,held,37.63303197279295,1973-07-16,175.0,62.0,Italy,26.87748117727584
+giro,2001,Gilberto Simoni,Italy,Lampre–Daikin,3572.0,89.04944444444445,,False,False,False,held,40.11254671250055,1971-08-25,170.0,58.0,Italy,29.76865160848734
+giro,2002,Paolo Savoldelli,Italy,Index–Alexia Alluminio,3334.0,89.37833333333333,,False,False,False,held,37.302105282786655,1973-05-07,180.0,70.0,Italy,29.06776180698152
+giro,2003,Gilberto Simoni,Italy,Saeco,3544.0,89.53583333333333,,True,False,False,held,39.581917854118,1971-08-25,170.0,58.0,Italy,31.76728268309377
+giro,2004,Damiano Cunego,Italy,Saeco,3435.0,88.67861111111111,,False,False,False,held,38.73538339133513,1981-09-19,169.0,58.0,Italy,22.699520876112253
+giro,2005,Paolo Savoldelli,Italy,Discovery Channel,3440.0,91.43083333333334,,False,False,False,held,37.62406919620478,1973-05-07,180.0,70.0,Italy,32.068446269678304
+giro,2006,Ivan Basso,Italy,Team CSC,3526.0,91.56,,False,False,False,held,38.51026649191787,1977-11-26,182.0,69.0,Italy,28.511978097193705
+giro,2007,Danilo Di Luca,Italy,Liquigas,3463.0,92.99416666666669,,False,False,False,held,37.23889491276334,1976-01-02,174.0,61.0,Italy,31.411362080766597
+giro,2008,Alberto Contador,Spain,Astana,3420.0,89.94694444444445,,False,False,False,held,38.02241444802337,1982-12-06,176.0,62.0,Spain,25.48665297741273
+giro,2009,Denis Menchov,Russia,Rabobank,3456.0,86.05305555555556,,True,False,False,held,40.16127001752795,1978-01-25,180.0,65.0,Russia,31.34839151266256
+giro,2010,Ivan Basso,Italy,Liquigas–Doimo,3485.0,87.73361111111112,,False,False,False,held,39.72251860904696,1977-11-26,182.0,69.0,Italy,32.511978097193705
+giro,2011,Michele Scarponi,Italy,Lampre–ISD,3524.0,84.19,,True,False,False,held,41.85770281506117,1979-09-25,174.0,63.0,Italy,31.682409308692677
+giro,2012,Ryder Hesjedal,Canada,Garmin–Barracuda,3503.0,91.65055555555556,,False,False,False,held,38.22126313109577,1980-12-09,190.0,71.0,Canada,31.477070499657767
+giro,2013,Vincenzo Nibali,Italy,Astana,3405.0,84.89111111111112,,False,False,False,held,40.11020653909584,1984-11-14,181.0,65.0,Italy,28.54483230663929
+giro,2014,Nairo Quintana,Colombia,Movistar Team,3445.5,88.24222222222222,,True,False,False,held,39.04593417109472,1990-02-04,166.0,58.0,Colombia,24.320328542094455
+giro,2015,Alberto Contador,Spain,Tinkoff–Saxo,3481.8,88.3736111111111,,False,False,False,held,39.39863898536832,1982-12-06,176.0,62.0,Spain,32.48459958932238
+giro,2016,Vincenzo Nibali,Italy,Astana,3463.15,82.74194444444444,,False,False,False,held,41.85482977530542,1984-11-14,181.0,65.0,Italy,31.54551676933607
+giro,2017,Tom Dumoulin,Netherlands,Team Sunweb,3609.1,90.74833333333332,,False,False,False,held,39.77042737240353,1990-11-11,185.0,69.0,Kingdom of the Netherlands,26.55441478439425
+giro,2018,Chris Froome,Great Britain,Team Sky,3572.4,89.04416666666667,,True,False,False,held,40.11941639448588,1985-05-20,186.0,69.0,"Kenya, United Kingdom",33.0321697467488
+giro,2019,Richard Carapaz,Ecuador,Movistar Team,3546.8,90.02972222222222,,False,False,False,held,39.39587852159935,1993-05-29,170.0,62.0,Ecuador,26.00684462696783
+giro,2020,Tao Geoghegan Hart,Great Britain,INEOS Grenadiers,3361.4,85.6725,,True,False,False,held,39.23546062038577,1995-03-30,183.0,,United Kingdom,25.17453798767967
+giro,2021,Egan Bernal,Colombia,INEOS Grenadiers,3410.9,86.2911111111111,,True,False,False,held,39.52782570626562,1997-01-13,175.0,60.0,Colombia,24.380561259411362
+giro,2022,Jai Hindley,Australia,Bora–Hansgrohe,3445.6,86.52055555555556,,False,False,False,held,39.82406236154542,1996-05-05,175.0,,Australia,26.072553045859
+giro,2023,Primož Roglič,Slovenia,Team Jumbo–Visma,3448.0,85.48388888888888,,False,False,False,held,40.3350858836298,1989-10-29,177.0,65.0,Slovenia,33.58795345653662
+giro,2024,Tadej Pogačar,Slovenia,UAE Team Emirates,3317.5,79.23416666666667,,True,False,False,held,41.869563845563256,1998-09-21,176.0,66.0,Slovenia,25.694729637234772
+giro,2025,Simon Yates,Great Britain,Visma–Lease a Bike,3443.3,82.51694444444445,,False,False,False,held,41.7283992176691,1992-08-07,172.0,58.0,United Kingdom,32.81587953456537
+giro,2026,Jonas Vingegaard,Denmark,Visma–Lease a Bike,3459.2,83.38083333333333,,False,False,False,held,41.4867525510459,1996-12-10,175.0,,Kingdom of Denmark,29.472963723477072
+vuelta,1935,Gustaaf Deloor,Belgium,,3245.0,120.00194444444443,,False,False,False,held,27.04122849861229,1913-06-24,,,Belgium,22.2258726899384
+vuelta,1936,Gustaaf Deloor,Belgium,,4364.0,150.13166666666666,,False,False,False,held,29.06781824842638,1913-06-24,,,Belgium,23.227926078028748
+vuelta,1937,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1938,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1939,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1940,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1941,Julián Berrendero,Spain,,4406.0,168.75722222222225,,False,False,False,held,26.108512228283235,1912-04-08,,,Spain,29.437371663244353
+vuelta,1942,Julián Berrendero,Spain,,3688.0,134.08583333333334,,True,False,False,held,27.5047699545689,1912-04-08,,,Spain,30.43668720054757
+vuelta,1943,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1944,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1945,Delio Rodríguez,Spain,,3803.0,135.73194444444445,,False,False,False,held,28.018459586398844,1916-04-19,,,Spain,29.4072553045859
+vuelta,1946,Dalmacio Langarica,Spain,,3836.0,137.1772222222222,,False,False,False,held,27.963826194015045,1919-12-05,,,Spain,26.77891854893908
+vuelta,1947,Edward Van Dijck,Belgium,,3893.0,132.45,,False,False,False,held,29.392223480558705,1918-03-22,,,Belgium,29.4839151266256
+vuelta,1948,Bernardo Ruiz,Spain,Udsans–Portaminas Alas Color,3990.0,155.10833333333332,,False,False,False,held,25.72395637457691,1925-01-08,,,Spain,23.685147159479808
+vuelta,1949,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1950,Emilio Rodríguez,Spain,,3932.0,134.82194444444443,,True,False,False,held,29.164391718295114,1923-11-28,,,Spain,26.798083504449007
+vuelta,1951,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1952,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1953,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1954,,,,,,,False,False,False,no_race,,,,,,
+vuelta,1955,Jean Dotto,France,France,2740.0,81.06722222222221,,False,False,False,held,33.79911047758719,1928-03-27,,,"France, Italy",27.468856947296374
+vuelta,1956,Angelo Conterno,Italy,Italy,3531.0,105.63111111111112,,False,False,False,held,33.42765178608996,1925-03-13,,,"Italy, Kingdom of Italy",31.509924709103355
+vuelta,1957,Jesús Loroño,Spain,Spain,2967.0,84.735,,False,False,False,held,35.01504691095769,1926-01-10,,,Spain,31.679671457905545
+vuelta,1958,Jean Stablinski,France,France,3241.8,94.90583333333332,,False,False,False,held,34.158068963095,1932-05-21,,,"France, Poland",26.31895961670089
+vuelta,1959,Antonio Suárez,Spain,Licor 43,3048.0,84.60555555555555,,False,False,False,held,36.02600302055289,,,,,
+vuelta,1960,Frans De Mulder,Belgium,Groene Leeuw–Sinalco–SAS,3567.0,103.09916666666666,,False,False,False,held,34.59775782216151,1937-12-14,,,Belgium,22.754277891854894
+vuelta,1961,Angelino Soler,Spain,Faema,2856.5,77.60472222222222,,False,False,False,held,36.80832709922434,1939-11-25,,,Spain,21.806981519507186
+vuelta,1962,Rudi Altig,West Germany,Saint-Raphaël–Helyett–Hutchinson,2813.0,78.59083333333332,,True,False,False,held,35.792978400788904,1937-03-18,180.0,80.0,"Germany, West Germany",25.49486652977413
+vuelta,1963,Jacques Anquetil,France,Saint-Raphaël–Gitane–R. Geminiani,2442.0,64.77222222222223,,False,False,False,held,37.70134659919376,1934-01-08,176.0,70.0,France,29.683778234086244
+vuelta,1964,Raymond Poulidor,France,Mercier–BP–Hutchinson,2860.0,78.39305555555556,,False,False,False,held,36.48282337933844,1936-04-15,,,France,28.418891170431213
+vuelta,1965,Rolf Wolfshohl,West Germany,Mercier–BP–Hutchinson,3410.0,92.60083333333333,,False,False,False,held,36.82472259968863,1938-12-27,,,Germany,26.718685831622178
+vuelta,1966,Francisco Gabica,Spain,Kas–Kaskol,2949.5,78.89861111111112,,False,False,False,held,37.38342105726407,1937-12-31,,,Spain,28.706365503080082
+vuelta,1967,Jan Janssen,Netherlands,Pelforth–Sauvage–Lejeune,2941.0,76.63444444444445,,True,False,False,held,38.37699902857722,1940-05-19,174.0,76.0,Kingdom of the Netherlands,27.32375085557837
+vuelta,1968,Felice Gimondi,Italy,Salvarani,3014.0,78.48333333333333,,False,False,False,held,38.40305797409216,1942-09-29,181.0,71.0,Italy,25.963039014373717
+vuelta,1969,Roger Pingeon,France,Peugeot–BP–Michelin,2921.4,73.3125,,False,False,False,held,39.84859335038363,1940-08-28,,,France,29.048596851471594
+vuelta,1970,Luis Ocaña,Spain,Bic,3568.0,89.95333333333333,,False,False,False,held,39.66501148743793,1945-06-09,,,Spain,25.267624914442163
+vuelta,1971,Ferdinand Bracke,Belgium,Peugeot–BP–Michelin,2892.0,73.83472222222221,,False,False,False,held,39.168563420552665,1939-05-25,,,Belgium,32.309377138945926
+vuelta,1972,José Manuel Fuente,Spain,Kas–Kaskol,3086.6,84.57055555555556,,True,False,False,held,36.49733621499471,1945-09-30,,,Spain,26.9596167008898
+vuelta,1973,Eddy Merckx,Belgium,Molteni,3080.9,84.68055555555556,,True,False,False,held,36.38261440052485,1945-06-17,182.0,74.0,Belgium,28.246406570841888
+vuelta,1974,José Manuel Fuente,Spain,Kas–Kaskol,2991.0,84.80499999999999,,False,False,False,held,35.26914686634043,1945-09-30,,,Spain,28.958247775496236
+vuelta,1975,Agustín Tamames,Spain,Super Ser,3104.4,88.01555555555555,,False,False,False,held,35.271037947837506,1944-10-19,173.0,66.0,Spain,30.90485968514716
+vuelta,1976,José Pesarrodona,Spain,Kas–Campagnolo,3341.0,93.31944444444444,,False,False,False,held,35.80175621372228,,,,,
+vuelta,1977,Freddy Maertens,Belgium,Flandria–Velda–Latina Assicurazioni,2785.5,78.91000000000001,,False,False,False,held,35.29970852870358,1952-02-13,,,Belgium,25.587953456536617
+vuelta,1978,Bernard Hinault,France,Renault–Gitane–Campagnolo,2990.0,85.4038888888889,,False,False,False,held,35.01011533432643,1954-11-14,175.0,,France,23.835728952772072
+vuelta,1979,Joop Zoetemelk,Netherlands,Miko–Mercier–Vivagel,3165.5,94.95083333333334,,False,False,False,held,33.3383066674858,1946-12-03,173.0,68.0,Kingdom of the Netherlands,32.78302532511978
+vuelta,1980,Faustino Rupérez,Spain,Zor–Vereco,3226.0,88.38916666666667,,False,False,False,held,36.49768542525008,1956-07-29,,,Spain,24.13141683778234
+vuelta,1981,Giovanni Battaglin,Italy,Inoxpran,3531.3,98.08027777777778,,False,False,False,held,36.00418024917231,1951-07-22,,,Italy,30.151950718685832
+vuelta,1982,Marino Lejarreta,Spain,Teka,3423.0,95.78972222222222,,False,True,False,held,35.73452266683679,1957-05-14,,,Spain,25.338809034907598
+vuelta,1983,Bernard Hinault,France,Renault–Elf,3399.0,94.4738888888889,,False,False,False,held,35.97819503331314,1954-11-14,175.0,,France,28.83504449007529
+vuelta,1984,Éric Caritoux,France,Skil–Reydel–Sem–Mavic,3361.6,90.13416666666669,,False,False,False,held,37.295513170181486,1960-08-16,,,France,24.082135523613964
+vuelta,1985,Pedro Delgado,Spain,Orbea–Gin MG,3467.6,95.96666666666668,,False,False,False,held,36.13337964571031,1960-04-15,,,Spain,25.418206707734427
+vuelta,1986,Álvaro Pino,Spain,Zor–BH,3675.0,98.26777777777778,,False,False,False,held,37.39781323141982,1956-08-17,,,Spain,30.078028747433265
+vuelta,1987,Luis Herrera,Colombia,Café de Colombia–Varta,3921.4,105.5736111111111,,True,False,False,held,37.14375172667833,1961-05-04,168.0,,Colombia,26.365503080082135
+vuelta,1988,Sean Kelly,Ireland,Kas–Canal 10,3428.4,89.32305555555556,,True,False,False,held,38.38202778304718,1956-05-24,,,Ireland,32.31211498973306
+vuelta,1989,Pedro Delgado,Spain,Reynolds,3656.6,93.0213888888889,,False,False,False,held,39.309238914586544,1960-04-15,,,Spain,29.418206707734427
+vuelta,1990,Marco Giovannetti,Italy,Seur,3711.0,94.6,,False,False,False,held,39.22832980972516,1962-04-04,189.0,,Italy,28.449007529089666
+vuelta,1991,Melcior Mauri,Spain,ONCE,3213.2,82.80194444444444,,False,False,False,held,38.80585198281039,1966-04-08,,,Spain,25.437371663244353
+vuelta,1992,Tony Rominger,Switzerland,CLAS–Cajastur,3558.1,96.24722222222222,,False,False,False,held,36.968339634621486,1961-03-27,173.0,,Switzerland,31.471594798083505
+vuelta,1993,Tony Rominger,Switzerland,CLAS–Cajastur,3585.5,96.1175,,True,False,False,held,37.30330064764481,1961-03-27,173.0,,Switzerland,32.47091033538672
+vuelta,1994,Tony Rominger,Switzerland,Mapei–CLAS,3531.1,92.13,,False,False,False,held,38.3273635080864,1961-03-27,173.0,,Switzerland,33.47022587268994
+vuelta,1995,Laurent Jalabert,France,ONCE,3637.6,95.50916666666669,,True,False,False,held,38.08639659369519,1968-11-30,176.0,68.0,France,26.78986995208761
+vuelta,1996,Alex Zülle,Switzerland,ONCE,3947.0,97.52944444444444,,False,False,False,held,40.469829624102125,1968-07-05,185.0,,Switzerland,28.197125256673512
+vuelta,1997,Alex Zülle,Switzerland,ONCE,3759.2,91.26527777777778,,False,False,False,held,41.18981601253975,1968-07-05,185.0,,Switzerland,29.196440793976727
+vuelta,1998,Abraham Olano,Spain,Banesto,3781.0,93.73555555555556,,False,False,False,held,40.33688153434011,1970-01-22,181.0,70.0,Spain,28.646132785763175
+vuelta,1999,Jan Ullrich,Germany,Team Telekom,3548.7,89.86749999999999,,False,False,False,held,39.48813531031797,1973-12-02,183.0,,"East Germany, Germany",25.78507871321013
+vuelta,2000,Roberto Heras,Spain,Kelme–Costa Blanca,2894.0,70.43722222222223,,True,False,False,held,41.08623123821842,1974-02-01,172.0,,Spain,26.62012320328542
+vuelta,2001,Ángel Casero,Spain,Festina,3012.2,70.81805555555555,,False,False,False,held,42.53435054619624,1972-09-27,180.0,63.5,Spain,28.966461327857633
+vuelta,2002,Aitor González,Spain,Kelme–Costa Blanca,3128.7,75.23111111111112,,False,False,False,held,41.587847817096936,,,,,
+vuelta,2003,Roberto Heras,Spain,U.S. Postal Service,2958.3,69.53111111111112,,False,False,False,held,42.54642206526256,1974-02-01,172.0,,Spain,29.61806981519507
+vuelta,2004,Roberto Heras,Spain,Liberty Seguros,2894.0,77.71277777777777,,True,False,False,held,37.23969317215101,1974-02-01,172.0,,Spain,30.62012320328542
+vuelta,2005,Roberto Heras,Spain,Liberty Seguros–Würth,3356.0,82.38194444444444,,False,False,False,held,40.73708168254236,1974-02-01,172.0,,Spain,31.619438740588638
+vuelta,2006,Alexander Vinokourov,Kazakhstan,Astana,3202.1,81.38527777777779,,True,False,False,held,39.34495387167348,,,,,
+vuelta,2007,Denis Menchov,Russia,Rabobank,3291.3,80.98527777777778,,True,False,False,held,40.64072002112867,1978-01-25,180.0,65.0,Russia,29.637234770704996
+vuelta,2008,Alberto Contador,Spain,Astana,3142.5,80.66888888888889,,True,False,False,held,38.9555384149197,1982-12-06,176.0,62.0,Spain,25.776865160848732
+vuelta,2009,Alejandro Valverde,Spain,Caisse d'Epargne,3293.6,87.37694444444443,,True,False,False,held,37.69415400070576,1980-04-25,177.0,61.0,Spain,29.39082819986311
+vuelta,2010,Vincenzo Nibali,Italy,Liquigas–Doimo,3333.8,87.30916666666667,,True,False,False,held,38.18384858405475,1984-11-14,181.0,65.0,Italy,25.83436002737851
+vuelta,2011,Chris Froome,Great Britain,Team Sky,3300.0,84.99555555555555,,True,True,False,held,38.82555950637942,1985-05-20,186.0,69.0,"Kenya, United Kingdom",26.321697467488022
+vuelta,2012,Alberto Contador,Spain,Saxo Bank–Tinkoff Bank,3360.2,84.99694444444445,,False,False,False,held,39.53318583347767,1982-12-06,176.0,62.0,Spain,29.776865160848732
+vuelta,2013,Chris Horner,United States,RadioShack–Leopard,3358.9,84.60111111111111,,True,False,False,held,39.70278824811862,1971-10-23,180.0,63.0,United States,41.89733059548254
+vuelta,2014,Alberto Contador,Spain,Tinkoff–Saxo,3181.5,81.41805555555555,,True,False,False,held,39.0760990088876,1982-12-06,176.0,62.0,Spain,31.77549623545517
+vuelta,2015,Fabio Aru,Italy,Astana,3358.1,85.6036111111111,,False,False,False,held,39.22848529884188,1990-07-03,183.0,65.0,Italy,25.201916495550993
+vuelta,2016,Nairo Quintana,Colombia,Movistar Team,3315.4,83.52444444444444,,True,False,False,held,39.69376895652637,1990-02-04,166.0,58.0,Colombia,26.611909650924023
+vuelta,2017,Chris Froome,Great Britain,Team Sky,3324.1,82.50055555555555,,True,False,False,held,40.29184988653275,1985-05-20,186.0,69.0,"Kenya, United Kingdom",32.323066392881586
+vuelta,2018,Simon Yates,Great Britain,Mitchelton–Scott,3271.4,82.09944444444444,,True,False,False,held,39.84679825956327,1992-08-07,172.0,58.0,United Kingdom,26.105407255304584
+vuelta,2019,Primož Roglič,Slovenia,Team Jumbo–Visma,3290.7,83.12527777777777,,True,False,False,held,39.58723613287842,1989-10-29,177.0,65.0,Slovenia,29.87816563997262
+vuelta,2020,Primož Roglič,Slovenia,Team Jumbo–Visma,2892.6,72.77,,True,False,False,held,39.74989693555037,1989-10-29,177.0,65.0,Slovenia,30.88021902806297
+vuelta,2021,Primož Roglič,Slovenia,Team Jumbo–Visma,3417.0,83.92472222222223,,False,False,False,held,40.715058799387016,1989-10-29,177.0,65.0,Slovenia,31.87953456536619
+vuelta,2022,Remco Evenepoel,Belgium,Quick-Step Alpha Vinyl Team,3280.5,80.44972222222222,,False,False,False,held,40.7770208446269,2000-01-25,171.0,62.0,Belgium,22.639288158795345
+vuelta,2023,Sepp Kuss,United States,Team Jumbo–Visma,3153.8,76.80583333333333,,False,False,False,held,41.06198530927556,1994-09-13,180.0,64.0,United States,29.00479123887748
+vuelta,2024,Primož Roglič,Slovenia,Red Bull–Bora–Hansgrohe,3304.3,81.82166666666666,,False,False,False,held,40.38416882243905,1989-10-29,177.0,65.0,Slovenia,34.88021902806297
+vuelta,2025,Jonas Vingegaard,Denmark,Visma–Lease a Bike,3304.3,74.3411111111111,,False,False,False,held,44.44781562467306,1996-12-10,175.0,,Kingdom of Denmark,28.763860369609855
